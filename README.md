@@ -1,3 +1,3 @@
 bdbazr
 ======
-This is classified ad posting site build on opensource php framework codeigniter. 
+This is classified ad posting site building on open source php framework codeigniter. 
