@@ -1,0 +1,11 @@
+At the top
+	Category Or Subcategory Name
+	
+	Image
+	Post Title
+	Category 
+	Subcategory
+	Location
+	Price 
+	Date
+	 
