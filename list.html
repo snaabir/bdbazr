@@ -16,6 +16,7 @@
   <!-- Included CSS Files (Uncompressed) -->
   
   <link rel="stylesheet" href="./stylesheets/foundation.css">
+  <link rel="stylesheet" href="./stylesheets/responsive-tables.css">
  
   
   <!-- Included CSS Files (Compressed) -->
@@ -23,6 +24,8 @@
   <link rel="stylesheet" href="./stylesheets/app.css">
 
   <script src="./javascripts/modernizr.foundation.js"></script>
+  <script src="./javascripts/responsive-tables.js"></script>
+  
 </head>
 <body>
 
@@ -63,123 +66,67 @@
  
     </div>
   </div>
-   
+  
   <div class="row">
-  	<div class="twelve columns hide-for-small">
-    	<div class="search_bar">
-        	<div class="row">
-            	<div class="twelve columns">
-                	<h2 class="txt_cntr" style="color: #FFF;">Tell Us What You Want </h2>
-                </div>
-            	<div class="three columns">
-                	<input type="text" id="search" name="search" placeholder="What are you looking for?"> 
-                </div>
-            	<div class="three columns">
-                      <select id="customDropdown">
-                        <option value="">Select Category</option>
-                        <option>Electronics</option>
-                        <option>Car</option>
-                      </select>
-                </div>
-                
-                <div class="three columns">
-                	<select id="customDropdown">
-                        <option value="">Select Location</option>
-                        <option>Dhaka</option>
-                        <option>Chittagong </option>
-                      </select>
-                </div>
-                
-                <div class="three columns">
-                	<input type="submit" id="search" name="search" class="button" value="Search &raquo;" > 
-                </div>
-            </div>
+	
+	<div class="nine columns">
+		<div class="panel hide-for-small" style="height: 85px;">
+		</div>
+		
+		<div class="twelve columns list">
+			<div class="row">
+				<table class="responsive" width=100%>
+					<thead>
+						<tr style="height: 55px;">
+							<th>Image </th>
+							<th>Title Location </th>
+							<th>Price </th>
+							<th>Date </th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr class="list_col">
+							<td> <a href="#" class="th"><img src="http://placehold.it/120x90"></a> </td>
+							<td> <h5><a href="#">Post Title</a></h5><br>
+										Electronics - Mohammpadpur </td>
+							<td> 4500 TK.</td>
+							<td> 22 Minutes Ago <br>
+								 Jan, 09 2013 </td>
+						</tr>
+						
+						<tr class="list_col">
+							<td> <a href="#" class="th"><img src="http://placehold.it/120x90"></a> </td>
+							<td> <h5><a href="#">Post Title</a></h5><br>
+										Electronics - Mohammpadpur </td>
+							<td> 4500 TK.</td>
+							<td> 22 Minutes Ago <br>
+								 Jan, 09 2013 </td>
+						</tr>
+						
+						<tr class="list_col">
+							<td> <a href="#" class="th"><img src="http://placehold.it/120x90"></a> </td>
+							<td> <h5><a href="#">Post Title</a></h5><br>
+										Electronics - Mohammpadpur </td>
+							<td> 4500 TK.</td>
+							<td> 22 Minutes Ago <br>
+								 Jan, 09 2013 </td>
+						</tr>
+					</tbody>		
+				</table>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="three hide-for-small columns">
+		<div class="panel advertise">
 		</div>
 	</div>
-</div>
-
-<div class="row">			
-		<div class="nine columns">	
-			<div class="four mobile-two columns">
-				<h6 class="no_margin panel"><a href="#">Electronics & Technology</a></h6>
-				<div class="cat_name">
-              
-					<a href="#">Camera </a><br>
-					<a href="#"> Mobile Phones</a><br>
-					<a href="#">Music System</a><br>
-					<a href="#">Office Supply</a><br>
-            
-				</div>
-			</div>
- 
-			<div class="four mobile-two columns">
-			  <h6 class="no_margin panel"><a href="#">Home & Lifestyle</a></h6>		
-			  <div class="cat_name">
-				<p><a href="#">Links</a></p>
-				<p><a href="#">Links</a></p>
-				<p><a href="#">Links</a></p>
-				<p><a href="#">Links</a></p>
-			  </div>
-			</div>  
-        
- 
-			<div class="four mobile-two columns">
-			  <h6 class="no_margin panel"><a href="#">Real Estate</a></h6>		
-				<div class="cat_name">
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-			  </div>
-			</div>
-			
-			
-			
-			<div class="twelve columns">
-				<div class="panel horizantal_ad hide-for-small">
-				</div>
-			</div>
-
-			<div class="four mobile-two columns">
-			  <h6 class="no_margin panel"><a href="#">Real Estate</a></h6>		
-				<div class="cat_name">
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-			  </div>
-			</div>
-			
-			<div class="four mobile-two columns">
-			  <h6 class="no_margin panel"><a href="#">Real Estate</a></h6>		
-				<div class="cat_name">
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-			  </div>
-			</div>
-			
-			<div class="four mobile-two columns">
-			  <h6 class="no_margin panel"><a href="#">Real Estate</a></h6>		
-				<div class="cat_name">
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-					<p><a href="#">Links</a></p>
-			  </div>
-			</div>
-				
-        </div>
 	
-		<div class="three columns">
-			<div class="panel advertise hide-for-small">
-			</div>
-		</div>
-</div>	
-        	
+  </div>
   
-    <!-- Footer -->
+  <!-- Footer -->
  
   <footer class="row">
     <div class="twelve columns"><hr />
@@ -204,7 +151,7 @@
  
     <!-- End Footer -->
   <!-- Included JS Files -->
-  <script src="javascripts/templates.js"></script>
+  <script src="file:///C|/Users/Aabir/Desktop/Working/public/assets/templates.js"></script>
   <script type="text/javascript">
     $(window).load(function() {
       $('#featured').orbit({ fluid: '2x1' });
